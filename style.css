@@ -17,3 +17,9 @@ a svg,button svg,summary svg{width:18px;height:18px;display:inline-block;vertica
 .metric-grid article:nth-child(1){--module-color:var(--module-1)}.metric-grid article:nth-child(2){--module-color:var(--module-2)}.metric-grid article:nth-child(3){--module-color:var(--module-3)}.metric-grid article:nth-child(4){--module-color:var(--module-4)}.metric-grid article:nth-child(5){--module-color:var(--module-5)}.metric-circle{border:3px solid var(--module-color);outline-color:var(--module-color)}
 @media(max-width:700px){.module{padding-left:12px}.module>summary{gap:12px}.module-no{font-size:10px;padding:3px 5px}.module h3{font-size:22px}.audit-card h3{font-size:19px;min-height:65px}.hero .actions{gap:20px}.hero .button{gap:16px}.hero .text-link{font-size:11px}header nav{gap:10px 15px;font-size:10px}}
 :root{--module-1:#f89a5b;--module-2:#c54cad;--module-3:#58c7bf;--module-4:#c54cad;--module-5:#f89a5b}
+/* Five distinct module identities, inspired by the existing UBRIS palette. */
+:root{--module-1:#F39B63;--module-2:#B88798;--module-3:#58C4BD;--module-4:#AD71C2;--module-5:#D1B36C}
+
+/* Original high-resolution portrait, displayed at its natural proportions. */
+.expert-image img{height:auto;max-height:none;object-fit:contain;filter:none;opacity:1}
+@media(max-width:700px){.expert-image img{max-height:none;height:auto;object-fit:contain}}
