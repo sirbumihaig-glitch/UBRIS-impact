@@ -23,3 +23,6 @@ a svg,button svg,summary svg{width:18px;height:18px;display:inline-block;vertica
 /* Original high-resolution portrait, displayed at its natural proportions. */
 .expert-image img{height:auto;max-height:none;object-fit:contain;filter:none;opacity:1}
 @media(max-width:700px){.expert-image img{max-height:none;height:auto;object-fit:contain}}
+
+/* Audit output: five scored performance signals. */
+.metric-circle{width:142px;height:142px;border:0;outline:0;background:conic-gradient(var(--module-color) var(--score),#d3d2ca 0);position:relative;isolation:isolate;margin:10px 0 28px}.metric-circle:before{content:"";position:absolute;inset:8px;background:var(--cream);border-radius:50%;z-index:-1}.metric-circle>span{font-size:39px;letter-spacing:-.05em;line-height:1}.metric-circle small{font-size:21px;margin-left:2px}.metric-grid p{font-weight:600}.metric-grid h3{font-size:19px;line-height:1.25}@media(max-width:700px){.metric-circle{width:120px;height:120px}.metric-circle>span{font-size:34px}.metric-grid h3{font-size:17px}}
