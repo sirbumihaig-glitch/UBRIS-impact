@@ -14,3 +14,4 @@ document.querySelector('#download-report').addEventListener('click',()=>{const u
 
 const scoreHexagons=document.querySelectorAll('.metric-hex');
 if('IntersectionObserver' in window){const scoreObserver=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-filled');scoreObserver.unobserve(entry.target);}});},{threshold:.3});scoreHexagons.forEach(hex=>scoreObserver.observe(hex));}else{scoreHexagons.forEach(hex=>hex.classList.add('is-filled'));}
+
